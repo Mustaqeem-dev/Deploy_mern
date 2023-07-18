@@ -21,7 +21,7 @@ function Login() {
     if (!email ) {
       toast.error("Please enter all fields");
     } else {
-      fetch("http://localhost:5000/user/forgetPassword", {
+      fetch("https://deploy-mern-api-xi.vercel.app/user/forgetPassword", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

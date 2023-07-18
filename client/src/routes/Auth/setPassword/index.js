@@ -76,7 +76,7 @@ function Register() {
     // }
     else {
       let passwords = formData.password;
-      fetch("http://localhost:5000/user/setPassword", {
+      fetch("https://deploy-mern-api-xi.vercel.app/user/setPassword", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

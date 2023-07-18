@@ -53,7 +53,7 @@ const ApplyJob = ({ job }) => {
         userId: user._id,
       };
 
-      fetch("http://localhost:5000/user/applyJob", {
+      fetch("https://deploy-mern-api-xi.vercel.app/user/applyJob", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
