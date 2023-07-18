@@ -1,0 +1,295 @@
+.formContainer {
+  border-radius: 0px;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 5px #2125296b,
+    -5px -5px 5px #ffffffa6;
+}
+
+.formBtn {
+  color: black;
+  border: none;
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 5px #2125296b,
+    -5px -5px 5px #ffffffa6;
+}
+
+.formBtn:hover {
+  color: black;
+  background: transparent;
+  box-shadow: 5px 5px 5px #ffffffa6,
+    -5px -5px 3px #2125296b;
+}
+
+.formBtnProfile {
+  border: none;
+  width: 40%;
+  padding: 5px;
+  border-radius: 10px;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 5px #2125296b,
+    -5px -5px 5px #ffffffa6;
+}
+
+.formBtnProfile:hover {
+  background: transparent;
+  box-shadow: 5px 5px 5px #ffffffa6,
+    -5px -5px 3px #2125296b;
+}
+
+.formInput {
+  background: transparent;
+  box-shadow: 5px 5px 5px #ffffffa6,
+    -2px -2px 5px #2125296b;
+}
+
+.formInput:focus {
+  border: none;
+  background: transparent;
+  box-shadow: 5px 5px 5px #ffffffa6,
+    -1px -1px 2px #2125296b;
+}
+
+
+/* Job Feed Page CSS */
+.jobFeedPage {
+  background-color: #e0e0e0;
+  min-height: 100vh;
+}
+
+.searchCont {
+  display: flex;
+  justify-content: center;
+}
+
+.searchJobFieldText,
+.searchLocFieldText {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #000000;
+  width: 40px;
+  height: 15px;
+  margin: auto;
+}
+
+.searchJobCont,
+.searchLocCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 70px;
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  border-radius: 3px;
+}
+
+.searchJobField,
+.searchLocField {
+  width: 205px;
+  height: 15px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #5A5A5A;
+  border: none;
+}
+
+.searchJobIcon,
+.searchLocIcon {
+  width: 25px;
+  height: 25px;
+  margin: auto;
+}
+
+.jobFeedHeading {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 14px;
+  color: #000000;
+}
+
+.jobFeedDisplay {
+  display: flex;
+  justify-content: center;
+}
+
+.displayJobs {
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  border-radius: 3px;
+  /* height: 355px; */
+}
+
+.displayJobTitle,
+.selectedJobTitle {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.displayJobPay {
+  float: right;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #F9F9F9;
+  background: #000000;
+  border-radius: 3px;
+  padding: 3px 10px;
+}
+
+.displayJobLocation,
+.displayJobType,
+.displayJobDescription,
+.selectedJobLocation,
+.selectedJobType,
+.selectedJobOpening,
+.selectedJobHiring,
+.selectedJobPayRange,
+.selectedJobPayMin,
+.selectedJobPayMax,
+.selectedJobPayRate,
+.selectedJobDescription {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #5A5A5A;
+  height: 20px;
+}
+
+.selectedJobDisplay {
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  border-radius: 3px;
+}
+
+.selectedJobApplyBtn {
+  float: right;
+  padding: 10px 15px;
+  gap: 10px;
+  background: #660099;
+  border: 1px solid #660099;
+  border-radius: 3px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  color: #F9F9F9;
+}
+
+.selectedJobApplyBtn:hover {
+  background: #FFFFFF;
+  color: #6D0E9D;
+  border: 1px solid #660099;
+}
+
+.jobFeedShowMoreJobs {
+  background: #660099;
+  border: 1px solid #660099;
+  border-radius: 3px;
+  padding: 10px 15px;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #F9F9F9;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.jobFeedShowMoreJobs:hover {
+  background: #FFFFFF;
+  color: #6D0E9D;
+  border: 1px solid #660099;
+}
+
+/* Job Feed Page CSS */
+
+
+/* Edit Profile Page CSS */
+.editProfilePage {
+  background-color: #F9F9F9;
+  min-height: 100vh;
+}
+
+.editProfileHeader {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #1E1E1E;
+}
+
+.editProfileRowHeader {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #06192D;
+}
+
+.editProfileLabel {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #06192D;
+}
+
+.editProdileInput {
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #06192D;
+  padding: 8px 5px;
+}
+
+.editProfileBtn {
+  border: 2px solid #6D0E9D;
+  border-radius: 5px;
+  padding: 10px;
+  background: #6D0E9D;
+  color: #FFFFFF;
+}
+
+.editProfileBtn:hover {
+  background: #FFFFFF;
+  color: #6D0E9D;
+}
+
+@media (max-width: 576px) {
+  .editProfileHeader {
+    font-size: 26px;
+    line-height: 40px;
+  }
+}
+
+/* Edit Profile Page CSS */
