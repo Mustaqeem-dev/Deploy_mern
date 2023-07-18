@@ -30,13 +30,14 @@ function Login() {
     if (!email || !password) {
       toast.error("Please enter all fields");
     } else {
-      fetch("http://localhost:5000/user/login", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      })
+    fetch("https://deploy-mern-api-xi.vercel.app/api/login", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify(formData),
+})
+
         .then((response) => {
           // if (!response.ok) {
           //   toast.error();
