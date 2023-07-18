@@ -77,7 +77,8 @@ function Register() {
     //   );
     // }
     else {
-      fetch("http://localhost:5000/user/register", {
+    fetch("https://deploy-mern-api-xi.vercel.app/user/register", {
+
         method: "POST",
         headers: {
           "Content-Type": "application/json",
