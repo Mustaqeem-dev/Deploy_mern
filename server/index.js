@@ -15,6 +15,12 @@ const app = express();
 connectDB();
 
 const PORT = 5000;
+app.use(
+  cors({
+    origin:["https://deploy-mern-frontend-wine.vercel.app"],
+    
+    credentials: true,
+  })
 
 app.use(
   bodyParser.urlencoded({
@@ -25,7 +31,7 @@ app.use(
 );
 
 app.use(bodyParser.json({ limit: "50mb" }));
-app.use(cors());
+
 app.use("/user", UserRoutes);
 // app.use('/admin', AdminRoutes);
 // Serve static assets in production
