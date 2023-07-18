@@ -18,9 +18,10 @@ const PORT = 5000;
 app.use(
   cors({
     origin: "https://deploy-mern-frontend-wine.vercel.app",
-    methods:["POST","GET"],
+    methods: ["POST", "GET"],
     credentials: true,
   })
+);
 
 app.use(
   bodyParser.urlencoded({
